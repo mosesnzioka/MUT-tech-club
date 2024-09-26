@@ -1,0 +1,63 @@
+.herosector{
+    height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(./src/assets/mut1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width:49.2em) {
+    .herosector{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:52.6em) {
+    .herosector{
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    
+}
+
+.welcoming-title{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 4rem;
+    
+}
+
+.learnmore{
+    color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: #ff885b;
+  padding: 2rem 2rem;
+  border-radius: 100px;
+  font-size: 3rem;
+  font-weight: 600;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  width: max-content;
+  text-transform: capitalize;
+  
+  
+  
+}

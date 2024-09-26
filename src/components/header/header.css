@@ -1,0 +1,52 @@
+.headernavigations{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+
+}
+
+@media screen and (max-width:76.1em) {
+    .headernavigations{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:52.6em) {
+    .headernavigations{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+.navigation-link{
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: .6rem;
+    font-weight: 700;
+}
+
+
+.navigation-items{
+    transition: all .3s;
+    padding: 1rem;
+}
+
+.navigation-items:hover{
+    background-color: lightskyblue;
+    color: white;
+}
