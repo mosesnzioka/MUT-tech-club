@@ -1,0 +1,28 @@
+.availableevents{
+ 
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event-title{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.event-description{
+    text-align: center;
+    line-height: 1.7;
+    margin-top: 2rem;
+}
+
+.event-container{
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}

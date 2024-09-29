@@ -2,6 +2,7 @@ import deajn from "../assets/deajn.jpg";
 import njeri from "../assets/njeri.jpg";
 import allanmuhari from "../assets/allanmuhari.jpg";
 import brigit from "../assets/brigit.jpg";
+import ruth from "../assets/ruth.jpg";
 import ifedha from "../assets/ifedha.jpg";
 import mannasegunga from "../assets/mannasegunga.jpg";
 import carolyn from "../assets/carolyn.jpg";
@@ -29,6 +30,11 @@ const products =[
     {
         thumbnail: brigit,
         title: 'Bridget Gitonga',
+        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    },
+    {
+        thumbnail: ruth,
+        title: 'Ruth Mutisya',
         description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
     },
     {
