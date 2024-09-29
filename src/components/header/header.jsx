@@ -10,8 +10,8 @@ function HeaderNavigation () {
                 <ol className="navigation-list">
                     <li className="navigation-items"><Link to="/" className="navigation-link">home</Link></li>
                     <li className="navigation-items"><Link to="/Leaders" className="navigation-link">leaders</Link></li>
-                    <li className="navigation-items"><Link to="/Events" className="navigation-link">tracks</Link></li>
-                    <li className="navigation-items"><Link to="#" className="navigation-link">events</Link></li>
+                    <li className="navigation-items"><Link to="/tracks" className="navigation-link">tracks</Link></li>
+                    <li className="navigation-items"><Link to="/events" className="navigation-link">events</Link></li>
                 </ol>
             </nav>
         </div>

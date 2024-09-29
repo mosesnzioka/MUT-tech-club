@@ -1,0 +1,18 @@
+.events-subject{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.event-descrition{
+    text-align: center;
+    line-height: 1.7;
+    margin-top: 2rem;
+}
+
+.availableevents{
+    background-color: aliceblue;
+    box-shadow: 0 0 5px aliceblue;
+    padding: 2rem;
+}

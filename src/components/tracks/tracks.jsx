@@ -1,6 +1,5 @@
 import React from "react";
-import cybersec from "../../assets/cybersec.png";
-import tracks from "../../data/event";
+import tracks from "../../data/tracks";
 
 function AvailableTracks({ icon, eventname, description }) {
     return (

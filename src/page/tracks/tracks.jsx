@@ -1,7 +1,6 @@
-import "../../components/events/events.css"
-import TracksOffered from "../../components/events/events";
+import "../../components/tracks/tracks.css"
 import Title from "../../components/title/Title";
-import TracksOffered from "../../components/events/events";
+import TracksOffered from "../../components/tracks/tracks";
 
 function Tracks(){
     return(
