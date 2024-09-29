@@ -18,7 +18,6 @@ function Hero (){
     return(
         <div>
             <HeroSection/>
-            this is hero section
         </div>
     )
 }

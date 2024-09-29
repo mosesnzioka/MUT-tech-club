@@ -7,8 +7,9 @@ function HeaderNavigation () {
             <nav>
                 <ol className="navigation-list">
                     <li className="navigation-items"><a href="#" className="navigation-link">home</a></li>
-                    <li className="navigation-items"><a href="#" className="navigation-link">about us</a></li>
-                    <li className="navigation-items"><a href="#" className="navigation-link">Testimonials</a></li>
+                    <li className="navigation-items"><a href="#" className="navigation-link">leaders</a></li>
+                    <li className="navigation-items"><a href="#" className="navigation-link">events</a></li>
+                    <li className="navigation-items"><a href="#" className="navigation-link">tracks</a></li>
                 </ol>
             </nav>
         </div>

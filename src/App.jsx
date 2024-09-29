@@ -2,6 +2,10 @@
 import './App.css'
 import Header from './components/header/header'
 import Hero from './components/hero/hero'
+import AboutUs from './components/about/aboutus'
+import Testmonies from './components/Testimonies/testimonies'
+// import Leaders from './components/leaders/leaders'
+
 function App() {
   
 
@@ -9,6 +13,11 @@ function App() {
     <>
     <Header/>
     <Hero/>
+    <AboutUs/>
+    <Testmonies/>
+    
+    
+    {/* <Leaders/> */}
     
     </>
   )
