@@ -15,15 +15,6 @@
     
 }
 
-@media screen and (max-width:52.6em) {
-    .headernavigations{
-        flex-direction: column;
-        gap: 2rem;
-        justify-content: center;
-    }
-    
-}
-
 .navigation-list{
     list-style: none;
     display: flex;
@@ -34,12 +25,23 @@
 
 }
 
+@media screen and (max-width:52.6em) {
+    .navigation-list{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+}
+
 .navigation-link{
     text-decoration: none;
     color: inherit;
     letter-spacing: .6rem;
     font-weight: 700;
 }
+
+
 
 
 .navigation-items{
