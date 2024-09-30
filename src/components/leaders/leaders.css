@@ -56,3 +56,12 @@
     margin: 3rem auto;
     border-radius: 5px;
 }
+
+.links{
+    text-decoration: none;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+}

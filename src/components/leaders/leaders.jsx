@@ -1,15 +1,17 @@
 import "./leaders.css";
-import products from "../../data/product";
+import products from "../../data/leaders";
 import Title from "../title/Title";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 
-function Sociallinks({children}){
-    return(
-        {children}
-    )
-}
 
-function LeadersCard({ thumbnail, title, description }) {
+
+
+
+
+function LeadersCard({ thumbnail, title, description, linkedinlink, facebookLink, twitterLink, instagramlink }) {
     return (
         <div className="leaders-card">
             <div className="leaders-img">
@@ -18,10 +20,39 @@ function LeadersCard({ thumbnail, title, description }) {
             <div className="leader-body">
                 <h3 className="leader-card-title">{title}</h3>
                 <p className="leader-description">{description}</p>
+                <div className="links">
+                {linkedinlink && (
+                        <a  href={linkedinlink} target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin />
+                        </a>
+                    )}
+                    {facebookLink && (
+                        <a href={facebookLink} target="_blank" rel="noopener noreferrer">
+                            <FaFacebook />
+                        </a>
+                    )}
+                    {twitterLink && (
+                        <a href={twitterLink} target="_blank" rel="noopener noreferrer">
+                            <FaTwitter />
+                        </a>
+                    )}
+
+                     {instagramlink && (
+                        <a href={instagramlink} target="_blank" rel="noopener noreferrer">
+                            <FaInstagramSquare />
+                        </a>
+                    )}
+
+                    
+                </div>
+                
+                
             </div>
         </div>
     );
 }
+
+
 
 function Leaders() {
     return (
@@ -33,17 +64,25 @@ function Leaders() {
                         thumbnail={product.thumbnail}
                         title={product.title}
                         description={product.description}
+                        instagramlink={product.instagramlink}
+                        linkedinlink={product.linkedinlink} 
+                        facebookLink={product.facebookLink}
+                        twitterLink={product.twitterLink}
 
                         key={i} 
 
                         
                     />
+                    
                 ))}
+                
+
+                
 
                 
             </div>
 
-            <a href="#" className="leaders-more-btn">more leaders</a>
+           
         </section>
     );
 }
