@@ -3,7 +3,7 @@ import Title from "../../components/title/Title"
 
 function Event(){
     return(
-        <div>
+        <div className="event-container-2">
             <Title maintitle="event schedule"/>
             <EventOffered/>
         </div>

@@ -4,7 +4,7 @@ import TracksOffered from "../../components/tracks/tracks";
 
 function Tracks(){
     return(
-        <div>
+        <div className="trackscont">
             <Title maintitle="tracks offered"/>
             <TracksOffered/>
         </div>

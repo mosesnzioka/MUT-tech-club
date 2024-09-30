@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Leaders from './components/leaders/leaders'
 import Tracks from './page/tracks/tracks'
 import Event from './page/event/events'
+import FooterEnd from './page/footer/footer'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Route path='/tracks' element={<Tracks/>}/>
       <Route path='/events'  element={<Event/>}/>
     </Routes>
+    <FooterEnd/>
     </BrowserRouter>
     
     

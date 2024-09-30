@@ -1,6 +1,6 @@
 .events-subject{
     text-transform: capitalize;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-top: 1rem;
 }
@@ -15,4 +15,18 @@
     background-color: aliceblue;
     box-shadow: 0 0 5px aliceblue;
     padding: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.event-day{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 600;
+    color: brown;
+}
+
+.event-container-2{
+    margin-top: 4rem;
 }
