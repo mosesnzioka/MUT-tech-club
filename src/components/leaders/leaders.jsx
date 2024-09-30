@@ -1,6 +1,13 @@
 import "./leaders.css";
 import products from "../../data/product";
 import Title from "../title/Title";
+import { FaLinkedinIn } from "react-icons/fa";
+
+function Sociallinks({children}){
+    return(
+        {children}
+    )
+}
 
 function LeadersCard({ thumbnail, title, description }) {
     return (
@@ -26,9 +33,14 @@ function Leaders() {
                         thumbnail={product.thumbnail}
                         title={product.title}
                         description={product.description}
+
                         key={i} 
+
+                        
                     />
                 ))}
+
+                
             </div>
 
             <a href="#" className="leaders-more-btn">more leaders</a>

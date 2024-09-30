@@ -33,7 +33,7 @@ function Testmonies(){
                         key={i}
                         studentavater={testmony.studentavater}
                         studentname={testmony.studentname}
-                        title={testmony.text}
+                        title={testmony.title}
                         text={testmony.text}
                         />
                     ))
