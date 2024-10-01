@@ -22,7 +22,7 @@ function Testimoniescard({studentavater,studentname, title, text}){
 
 function Testmonies(){
     return(
-        <section>
+        <section className="aluminie-testimonies">
             <Title maintitle="testimonies from our aluminies"/>
             <div className="testimony-container">
                <Carousel enableAutoPlay={true} autoPlaySpeed={5000}>
