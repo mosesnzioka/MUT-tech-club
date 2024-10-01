@@ -11,7 +11,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 
 
-function LeadersCard({ thumbnail, title, description, linkedinlink, facebookLink, twitterLink, instagramlink }) {
+function LeadersCard({ thumbnail, title, position, description, linkedinlink, facebookLink, twitterLink, instagramlink }) {
     return (
         <div className="leaders-card">
             <div className="leaders-img">
@@ -19,6 +19,7 @@ function LeadersCard({ thumbnail, title, description, linkedinlink, facebookLink
             </div>
             <div className="leader-body">
                 <h3 className="leader-card-title">{title}</h3>
+                <h4 className="leader-position">{position}</h4>
                 <p className="leader-description">{description}</p>
                 <div className="links">
                 {linkedinlink && (
@@ -63,6 +64,7 @@ function Leaders() {
                     <LeadersCard
                         thumbnail={product.thumbnail}
                         title={product.title}
+                        position={product.position}
                         description={product.description}
                         instagramlink={product.instagramlink}
                         linkedinlink={product.linkedinlink} 

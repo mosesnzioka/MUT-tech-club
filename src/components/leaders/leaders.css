@@ -43,6 +43,14 @@
     gap: 3rem;
 }
 
+.leader-position{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+
+}
+
 .leaders-more-btn{
     padding: 1.5rem 2rem;
     background-color: green;
